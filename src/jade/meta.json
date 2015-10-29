@@ -1,0 +1,19 @@
+{
+    "ja": {
+        "title":        "日本語タイトル",
+        "description":  "詳細",
+        "keywords":     "ほげ,ふが",
+        "url":          "http://",
+        "image":        "http://",
+        "site_name":    "日本語サイトネーム"
+    },
+    "en": {
+        "title":        "EnglishTitle",
+        "description":  "Description",
+        "keywords":     "Hoge,Fuga",
+        "url":          "http://",
+        "image":        "http://",
+        "site_name":    "EnglishSitename"
+    }
+}
+        

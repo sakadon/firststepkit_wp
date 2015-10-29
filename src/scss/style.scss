@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import "normalize";
+
+// =========================================================
+// var
+$min_width1: "screen and (min-width: 640px)";
+$max_width1: "screen and (max-width: 640px)";
+
+
+// =========================================================
+// Templates
+@media #{$min_width1} {
+    // for PC
+}
+@media #{$max_width1} {
+    // for SP
+}
+%clearfix {
+    &:after {
+        content: "";
+        clear: both;
+        height: 0;
+        display: block;
+        visibility: hidden;
+    }
+}
+
+// =========================================================
+// Elements
+html {
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    &.is_pc {
+        font-size: 16px;
+    }
+    &.is_mobile {
+        font-size: 18px;
+    }
+}
+
+img {
+    vertical-align: middle;
+}
+iframe {
+    vertical-align: middle;
+}
+
+
+// =========================================================
+// Classies
+.alignleft {
+    text-align: left;
+}
+.alignright {
+    text-align: right;
+}
+.aligncenter,
+.centering {
+    text-align: center;
+}
+.centering {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nonedisplay{
+    display: none;
+}
+.is_mobile .sp_none {
+    display: none;
+}
+
+
+// =========================================================
+// header
+header {
+}
+
+
+// =========================================================
+// article
+article {
+    
+    section {
+    }
+    aside {
+    }
+}
+
+
+// =========================================================
+// footer
+footer {
+}
+
+#copyright {
+    small {
+    }
+}
